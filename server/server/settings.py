@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'server.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'nvctukvb',
+        'USER': 'nvctukvb',
+        'PASSWORD': 'pDb_bDc2j92Snq7auKM1deTc0QdTwPbR',
+        'HOST': 'lallah.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 
